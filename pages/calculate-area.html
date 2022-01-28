@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Area</title>
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <nav class="navigation">
+      <h1 class="nav-brand"><a class="link" href="/">fun with triangles</a></h1>
+      <ul class="list-non-bullet nav-pills">
+        <li class="list-item-inline">
+          <a class="link" href="../index.html">Quiz</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="is-triangle.html">Is Triangle?</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="calculate-hypotenuse.html">Hypotenuse</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link link-active" href="/">Area of Triangle</a>
+        </li>
+      </ul>
+    </nav>
+    <main class="container">
+      <h1 class="heading">Calculate Area of a triangle</h1>
+
+      <form id="calculate-area">
+        <label class="input-label" for="first-side">
+          <p>Enter first side</p>
+          <input class="input-text" required="" type="number" id="first-side" />
+        </label>
+
+        <label class="input-label" for="second-side">
+          <p>Enter second side</p>
+          <input
+            class="input-text"
+            required=""
+            type="number"
+            id="second-side"
+          />
+        </label>
+
+        <label class="input-label" for="third-side">
+          <p>Enter third side</p>
+          <input class="input-text" required="" type="number" id="third-side" />
+        </label>
+
+        <p class="error-msg"></p>
+
+        <button class="btn-check" type="submit">Calculate</button>
+      </form>
+      <p id="output"></p>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-header">© | 2021 | Pushpendra Sharma</div>
+      <ul class="list-non-bullet">
+        <li class="list-item-inline">
+          <a class="link" href="https://github.com/Pushpendra-Sharma">
+            github
+          </a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="https://twitter.com/100Pushpendra"> twitter </a>
+        </li>
+        <li class="list-item-inline">
+          <a
+            class="link"
+            href="https://www.linkedin.com/in/ietl-pushpendra-sharma/"
+            >linkedin
+          </a>
+        </li>
+      </ul>
+    </footer>
+    <script src="../scripts/calculate-area.js"></script>
+  </body>
+</html>
