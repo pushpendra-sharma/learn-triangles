@@ -8,58 +8,60 @@
     <link rel="stylesheet" href="../style.css" />
   </head>
   <body>
-    <nav class="navigation">
-      <h1 class="nav-brand"><a class="link" href="/">fun with triangles</a></h1>
-      <ul class="list-non-bullet nav-pills">
-        <li class="list-item-inline">
+    <nav class="navigation nav-container">
+      <div class="nav-brand">
+        <a class="link" href="/">fun with triangles</a>
+      </div>
+      <ul class="list-non-bullet nav-list-container">
+        <li class="list-item-inline nav-list-item">
           <a class="link" href="../index.html">Quiz</a>
         </li>
-        <li class="list-item-inline">
-          <a class="link link-active" href="/">Is Triangle?</a>
+        <li class="list-item-inline nav-list-item">
+          <a class="link link-active" href="">Is Triangle?</a>
         </li>
-        <li class="list-item-inline">
-          <a class="link" href="./calculate-hypotenuse.html">Hypotenuse</a>
+        <li class="list-item-inline nav-list-item">
+          <a class="link" href="calculate-hypotenuse.html">Hypotenuse</a>
         </li>
-        <li class="list-item-inline">
-          <a class="link" href="./calculate-area.html">Area of Triangle</a>
+        <li class="list-item-inline nav-list-item">
+          <a class="link" href="calculate-area.html">Area of Triangle</a>
         </li>
       </ul>
     </nav>
-    <main class="container">
 
-      <h1 class="heading">Angles of triangle</h1>
+    <main class="main-container">
+      <header class="main-item container-center">
+        <h1 class="hero-heading">Angles of triangle<span class="heading-inverted"></span></h1>
+      </header>
 
-      <label for="angle1">Angle 1</label>
-      <input type="number" class="input-angle" />
+      <form class="main-item">
+        <label class="input-label" for="angle1">Angle 1</label>
+        <input class="input-text input-angle" type="number" />
 
-      <label for="angle2">Angle 2</label>
-      <input type="number" class="input-angle" />
+        <label class="input-label" for="angle2">Angle 2</label>
+        <input class="input-text input-angle" type="number" />
 
-      <label for="angle3">Angle 3</label>
-      <input type="number" class="input-angle" />
-      
-      <p class="error-msg"></p>
+        <label class="input-label" for="angle3">Angle 3</label>
+        <input class="input-text input-angle" type="number" />
 
-      <button id="btn-is-triangle">Is Triangle?</button>
-      <div id="output"></div>
+        <p class="error-msg"></p>
+
+        <button id="btn-is-triangle">Is Triangle?</button>
+      </form>
+
+      <div class="main-item" id="output"></div>
     </main>
-    <footer class="footer">
-      <div class="footer-header">© | 2021 | Pushpendra Sharma</div>
-      <ul class="list-non-bullet">
+
+    <footer class="footer footer-container">
+      <div class="footer-header">social media presence</div>
+      <ul class="list-non-bullet footer-item">
         <li class="list-item-inline">
-          <a class="link" href="https://github.com/Pushpendra-Sharma">
-            github
-          </a>
+          <a class="link" href="https://github.com/Pushpendra-Sharma">github </a>
         </li>
         <li class="list-item-inline">
-          <a class="link" href="https://twitter.com/100Pushpendra"> twitter </a>
+          <a class="link" href="https://twitter.com/100Pushpendra">twitter </a>
         </li>
         <li class="list-item-inline">
-          <a
-            class="link"
-            href="https://www.linkedin.com/in/ietl-pushpendra-sharma/"
-            >linkedin
-          </a>
+          <a class="link" href="https://www.linkedin.com/in/ietl-pushpendra-sharma/">linkedin </a>
         </li>
       </ul>
     </footer>

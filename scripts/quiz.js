@@ -11,7 +11,7 @@ function deleteMessage(element) {
   return (element.innerText = "");
 }
 
-const correctAnswers = ["90°", "right angled", "one right angle","14, 15, 26","Equilateral triangle","85°","10°","a + b + c","no","45°"];
+const correctAnswers = ["90°", "right angled", "one right angle","3, 4, 5","Equilateral triangle","85°","40","a + b + c","no","45°"];
 
 function calculateScore(e) {
   e.preventDefault();
